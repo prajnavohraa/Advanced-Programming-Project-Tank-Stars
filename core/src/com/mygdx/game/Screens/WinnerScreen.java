@@ -30,7 +30,6 @@ public class WinnerScreen implements Screen {
     @Override
     public void show() {
         img= new Texture("choosetank/Background.png");
-
         mainMenuActive= new Texture("WinnerScreen/MainMenuActive.png");
         mainMenuInactive= new Texture("WinnerScreen/MainMenuInactive.png");
         QuitInactive= new Texture("Group 86.png");
